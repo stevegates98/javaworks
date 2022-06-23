@@ -1,0 +1,11 @@
+package constant;
+
+public class KmToMile {
+
+	public static void main(String[] args) {
+		// km를 mile로 변환
+		final double RATE_KPH_MPH = 1.609344;
+
+	}
+
+}

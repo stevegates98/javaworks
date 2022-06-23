@@ -1,0 +1,16 @@
+package constant;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		// 상수 - 변하지 않는 값(1년 12개월, 원주율 3.14)
+		// final 키워드 사용
+		final int MONTH = 12;
+		
+		//MONTH = 6; 상수이므로 변경할 수 없음
+		
+		System.out.println(MONTH);
+
+	}
+
+}

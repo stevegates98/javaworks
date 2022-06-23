@@ -1,0 +1,13 @@
+package ch01;
+
+public class TypeConversion2 {
+
+	public static void main(String[] args) {
+		// 사칙 연산
+		int x = 10, y = 20;
+		
+		System.out.println(x + y);
+
+	}
+
+}

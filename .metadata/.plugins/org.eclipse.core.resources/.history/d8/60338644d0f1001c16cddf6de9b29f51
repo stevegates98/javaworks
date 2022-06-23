@@ -1,0 +1,17 @@
+package constant;
+
+public class KmToMile {
+
+	public static void main(String[] args) {
+		// km를 mile로 변환
+		final double RATE_KPH_MPH = 1.609344; // 상수
+		double kph = 150.5;
+		double mph = 0.0;
+		
+		// 연산 : mph = kph / 상수
+		mph = kph / RATE_KPH_MPH;
+		
+		System.out.println(mph);
+	}
+
+}
